@@ -2,9 +2,10 @@
 * {
     font-family:'Roboto', sans-serif;
 }
-body {
+body, html {
     margin: 60px auto;
     width: 70%;
+    height: 100%;
 }
 nav ul, footer ul {
     font-family:'Roboto', sans-serif;
@@ -48,4 +49,13 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+.bg {
+    background-image: url('https://www.webdesignerdepot.com/cdn-origin/uploads/2018/04/featured_nlp.jpg');
+    height: 100%;
+    
+    /* Center and scale */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
