@@ -127,6 +127,15 @@ p {
     background: transparent;
     z-index: 1;
 }
+.container embed {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 700px;
+
+    z-index: 1;
+}
 .link {
     position: relative;
     text-align: center;
