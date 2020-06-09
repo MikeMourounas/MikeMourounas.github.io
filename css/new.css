@@ -50,7 +50,7 @@ h2 {
     margin: 0;
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: 400;
     line-height: 1.4em;
     color: #333;
@@ -81,6 +81,16 @@ p {
     padding: 1%;
     text-align: center;
     position: relative;
+
+    z-index: 1;
+}
+.container p {
+    padding: 1%;
+
+    text-align: left;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
 
     z-index: 1;
 }
